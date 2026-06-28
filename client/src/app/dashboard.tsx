@@ -32,7 +32,7 @@ import Svg, { Path, Circle, Defs, Filter, FeDropShadow } from 'react-native-svg'
 
 const AnimatedPath = Animated.createAnimatedComponent(Path);
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = 'https://roadie.onrender.com/api';
 const mascotLoading = require('../assets/images/mascot_loading.png');
 const mascotHome = require('../assets/images/mascot_home.png');
 
